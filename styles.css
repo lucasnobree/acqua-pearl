@@ -1,0 +1,527 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fcfcfc;
+}
+header {
+    background-color: black;
+    
+}
+.container {
+    padding: 15px 6%;
+}
+.cabecalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 70%;
+}
+.navegacao {
+    align-self: center;
+}
+.navegacao__lista {
+    display: flex;
+}
+.navegacao__item {
+    margin-right: 2.5rem;
+}
+.navegacao__link {
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+ul .navegacao__item:last-child {
+    margin-right: 0rem;
+}
+.chamada {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+}
+.chamada__titulo {
+    font-size: 3.7rem;
+    color: white;
+    padding-top: 8rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 35%;
+    text-align: left;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.chamada__botao {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: .4s all ease-in-out;
+}
+.chamada__botao:hover {
+    padding: 1.05rem 2.1rem;
+    font-size: 1.35rem;
+}
+.tituloConteudo {
+    text-align: center;
+    font-size: 3.2rem;
+    padding-top: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.divtopo {
+    background-color: #ffffff;
+    padding-top: 5rem;
+}
+.conteudo__titulo {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2.5rem;
+    font-weight:400;
+    padding-top: 9rem;
+}
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+}
+.conteudo__texto {
+    width: 50%;
+    padding: 3rem 0 0 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+}
+.conteudo__imagem{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.5);
+}
+.rios {
+    text-align: right;
+}
+.margin {
+    margin-bottom: 5rem;
+}
+.textodireita {
+    text-align: right;
+}
+.importancia__titulo {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2.5rem;
+    font-weight:700;
+    padding-top: 6rem;
+    width: 40%;
+    color: white;
+}
+
+.importancia{
+    background-color: #3eb6d8;
+}
+.importancia__texto {
+    width: 50%;
+    padding: 3rem 0 0 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.importancia__imagem {
+    width: 35%;
+    border-radius: 20px;
+}
+.equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.equipe__titulo {
+    align-self: center;
+    font-size: 2.5rem;
+    padding: 4rem 0;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+.equipe__imagem{
+    width: 70%;
+    align-self: center;
+    border-radius: 30px;
+}
+.equipe__texto {
+    align-self: center;
+    text-align: center;
+    width: 60%;
+    padding: 4rem 0 0 0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 6rem;
+}
+.rodape {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 10%;
+}
+.rodape__logo {
+    width: 20%;
+    align-self: center;
+}
+.rodape__simbolo {
+    width: 5%;
+}
+.rodape__contato {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+.email {
+    color: white;
+    line-height: 3rem;
+
+}
+.copyright {
+    color: white;
+    font-size: 0.7rem;
+}
+
+form{
+    margin: 2rem 10%;
+}
+form label, form p {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.inputpadrao {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem 1rem;
+    width: 35%;
+}
+.checkbox {
+    margin: 1rem 0;
+}
+.escolha {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.horario{
+    margin-top: 1rem;
+}
+.horario select {
+    width: 10%;
+    font-size: 20px;
+    margin: 1rem 0;
+}
+.enviar {
+    width: 20%;
+    background-color: rgb(3, 91, 255);
+    padding: 15px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    margin-top: 20px; 
+    cursor: pointer; 
+    transition: 1s all;
+    margin-bottom: 3rem;
+}
+.enviar:hover {
+    background-color: rgb(0, 38, 255);
+    transform: scale(1.1);
+}
+
+.contatobanner {
+    background-image: url(img/testecontato.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+}
+.banner__titulo {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 7rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 35%;
+    text-align: left;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+
+/* RESPONSIVIDADE */
+
+
+@media screen and (max-width:1305px) {
+    .conteudo {
+        padding: 0;
+    }
+    .conteudo__titulo{
+        margin: 0;
+    }
+    .chamada__titulo {
+        max-width: 45%;
+        font-size: 3.5rem;
+        
+    }
+    .chamada {
+        height: 55vh;
+    }
+    .tituloConteudo{
+        font-size: 2.7rem;
+    }
+    .equipe__imagem{
+        width: 80%;
+    }
+    .equipe__texto{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1005px) {
+    .logo{
+        width: 50%;
+    }
+    .chamada__titulo{
+        font-size: 2.7rem;
+    }
+    .chamada__botao{
+        padding: .8rem 1.6rem;
+        font-size: 1.1rem;
+    }
+    .tituloConteudo{
+        font-size: 2.2rem;
+    }
+    .conteudo__titulo{
+        font-size: 1.8rem;
+        padding-top: 7rem;
+    }
+    .conteudo__texto{
+        font-size: 1.0rem;
+    }
+    .conteudo__imagem{
+        width: 45%;
+    }
+    .importancia__titulo{
+        font-size: 1.7rem;
+        width: 50%;
+        margin: 0;
+        padding-top: 3rem;
+    }
+    .importancia__texto {
+        font-size: 1rem;
+        width: 55%;
+    }
+    .rodape__simbolo{
+        width: 10%;
+    }.rodape__logo{
+        width: 30%;
+    }
+    .banner__titulo{
+        font-size: 2rem;
+        padding-top: 5rem;
+        max-width: 40%;
+    }
+    .contatobanner{
+        height: 30vh;
+    }
+    .inputpadrao {
+        width: 50%;
+    }
+    .fonte {
+        font-size: 1.2rem;
+    }
+    .enviar{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .chamada__titulo {
+        font-size: 2.1rem;
+        padding-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .chamada{
+        height: 40vh;
+    }
+    .conteudo__imagem{
+        height: 300px;
+    }
+    .importancia__texto{
+        margin-bottom: 2rem;
+    }
+    .importancia__imagem{
+        height: 300px;
+    }
+    .equipe__texto{
+        font-size: 1rem;
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+    .rodape__logo{
+        width: 30%;
+    }
+    .equipe__titulo {
+        font-size: 2rem;
+    }
+    .equipe__imagem{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .chamada__titulo{
+        padding-top: 1.5rem;
+        
+    }
+    .chamada{
+        height: 33vh;
+    }
+    .chamada__botao{
+        padding: .5 1.3;
+        font-size: 1rem;
+    }
+    .conteudo__imagem{
+        display: none;
+    }
+    .conteudo__texto{
+        width: 100%;
+    }
+    .conteudo__titulo {
+        padding-top: 2rem;
+    }
+    .tituloConteudo{
+        padding: 2rem 0;
+    }
+    .importancia__imagem{
+        display: none;
+    }
+    .importancia__texto{
+        width: 90%;
+    }
+    .importancia__titulo{
+        width: 70%;
+        font-size: 1.5rem;
+    }
+    .equipe__texto{
+        text-align: left;
+        width: 100%;
+    }
+    .equipe__imagem{
+        width: 100%;
+    }
+    .banner__titulo{
+        padding-top: 3rem;
+        max-width: 50%;
+        font-size: 1.7rem;
+    }
+    .inputpadrao{
+        width: 80%;
+    }
+    .contatobanner{
+        height: 20vh;
+    }
+    .escolha {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:524px) {
+    .chamada {
+        background-image: url(img/banner2.jpg);
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+    .chamada__titulo {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    .chamada__botao{
+        text-align: center;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 70%;
+        align-self: center;
+    }
+    .tituloConteudo{
+        font-size: 1.7rem;
+    }
+    .conteudo__titulo{
+        font-size: 1.7rem;
+    }
+    .importancia__texto{
+        width: 100%;
+    }
+    .rodape__logo{
+        width: 40%;
+    }
+    .rodape__simbolo{
+        width: 20%;
+    }
+    .rodape__contato{
+        font-size: 1rem;
+    }
+    .contatobanner {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .logo{
+        display: none;
+    }
+    .navegacao__link{
+        font-size: 1.0rem;
+    }
+    .chamada__titulo{
+        font-size: 1.9rem;
+    }
+    .chamada {
+        height: 220px;
+    }
+    .chamada__botao{
+        font-size: 0.9rem;
+    }
+    .tituloConteudo {
+        font-size: 1.5rem;
+    }
+    .importancia__titulo{
+        width: 90%;
+    }
+    .equipe__titulo{
+        text-align: center;
+    }
+    .rodape__logo{
+        width: 50%;
+    }
+    .email {
+        font-size: 1rem;
+    }
+    .equipe__titulo {
+        font-size: 1.5rem;
+    }
+    .banner__titulo{
+        max-width: 100%;
+    }
+    .fonte{
+        font-size: 1rem;
+    }
+    .enviar{
+        width: 100%;
+    }
+}
